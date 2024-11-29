@@ -1,0 +1,86 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Define Tianjin University blue color
+\definecolor{tjublue}{RGB}{0,71,145}
+
+% Page geometry with smaller margins
+\geometry{
+  top=0.75in,
+  bottom=0.75in,
+  left=0.75in,
+  right=0.75in
+}
+
+% Typography settings
+\setmainfont{Times New Roman}
+\linespread{1.15}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+% Hyperref settings
+\hypersetup{
+  colorlinks=true,
+  urlcolor=tjublue,
+  linkcolor=tjublue
+}
+
+\begin{document}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Logo and contact info in a right-aligned block with left-aligned text
+\begin{flushright}
+\begin{minipage}{0.3\textwidth}
+\raggedright
+\includegraphics[width=\textwidth]{tju_tp.pdf}
+
+\vspace{1em}
+
+\textbf{Prof. XXX, Ph.D.}\\
+\textbf{Professor}\\
+Tianjin University\\
+92 Weijin Road\\
+Tianjin, 300072, China\\
+\textbf{Email:} xxx@tju.edu.cn
+\end{minipage}
+\end{flushright}
+
+\vspace{2em}
+
+% Date
+\today
+
+\vspace{1em}
+
+Dear Members of the Admissions Committee,
+
+\vspace{1em}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+
+\vspace{2em}
+
+Sincerely,
+
+\vspace{0.5em}
+
+% Signature
+\textbf{Prof. XXX, Ph.D.}\\
+\textbf{Professor}\\
+Tianjin University
+\end{document}

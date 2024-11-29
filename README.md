@@ -1,4 +1,4 @@
-# TJU Letter Template | 天津大学信纸模板
+# TJU Letter Template | 天津大学推荐信模板
 
 A professional LaTeX template for Tianjin University official letters, featuring the university's visual identity and standard formatting.
 
@@ -60,7 +60,7 @@ Copyright (c) 2024 Zhouyi Xiaoxiao
 
 ## Author | 作者
 
-Zhouyi Xiaoxiao | 周逸笑笑
+Zhouyi Xiaoxiao | 周易潇潇
 
 ## Contributing | 贡献
 
